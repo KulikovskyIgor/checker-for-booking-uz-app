@@ -18,6 +18,6 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*" ],
-  "content_security_policy": "default-src 'self'; script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:;"
+  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*", "https://checker-for-booking-uz-api.herokuapp.com/*" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' https://checker-for-booking-uz-api.herokuapp.com; connect-src https://checker-for-booking-uz-api.herokuapp.com; style-src * 'unsafe-inline'; img-src 'self' data:;"
 }

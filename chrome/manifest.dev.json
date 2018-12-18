@@ -18,6 +18,5 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": [ "contextMenus", "management", "tabs", "storage", "https://github.com/*" ],
-  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 http://localhost:8080 https://localhost:3000 https://checker-for-booking-uz-api.herokuapp.com 'unsafe-eval'; connect-src http://localhost:3000 http://localhost:8080 https://localhost:3000 https://checker-for-booking-uz-api.herokuapp.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
-}
+  "permissions": [ "contextMenus", "management", "tabs", "storage", "https://github.com/*", "https://checker-for-booking-uz-api.herokuapp.com/*" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 https://checker-for-booking-uz-api.herokuapp.com 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000 https://checker-for-booking-uz-api.herokuapp.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"}
