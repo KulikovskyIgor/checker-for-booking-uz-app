@@ -1,3 +1,5 @@
+import mockedResponse from "./trainsResponse.json"
+
 export const fetchTrains = (from, to, date, time) =>
     fetch("https://checker-for-booking-uz-api.herokuapp.com/trains", {
         headers: {
@@ -7,4 +9,5 @@ export const fetchTrains = (from, to, date, time) =>
         mode: 'cors',
         method: "POST",
         body: JSON.stringify({ from, to, date, time })
-    });
+    })
+    .catch(() => ({ json: () => mockedResponse }));

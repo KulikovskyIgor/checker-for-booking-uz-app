@@ -1,26 +1,18 @@
 import React, { PropTypes, Component } from 'react';
-import TodoTextInput from './TodoTextInput';
+import RouteTextInput from './RouteTextInput';
 
 export default class Header extends Component {
 
   static propTypes = {
-    addTodo: PropTypes.func.isRequired
-  };
-
-  handleSave = (text) => {
-    if (text.length !== 0) {
-      this.props.addTodo(text);
-    }
+    setRoute: PropTypes.func.isRequired
   };
 
   render() {
     return (
       <header>
-        <h1>todos</h1>
-        <TodoTextInput
-          newTodo
-          onSave={this.handleSave}
-          placeholder="What needs to be done?"
+        <h1>Routes</h1>
+        <RouteTextInput
+          onSave={this.props.setRoute}
         />
       </header>
     );

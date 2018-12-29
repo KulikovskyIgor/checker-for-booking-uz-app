@@ -1,0 +1,1391 @@
+{
+    "data": {
+        "list": [
+            {
+                "num": "235Ш",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:29",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "00:08",
+                    "sortTime": 1546121280,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "08:37",
+                    "sortTime": 1546151820
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 35
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 315
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "043Ш",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "7:47",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ивано-Франковск",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "01:01",
+                    "sortTime": 1546124460,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Днепр-Главный",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "08:48",
+                    "sortTime": 1546152480
+                },
+                "types": [],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "218Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "7:46",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "01:28",
+                    "sortTime": 1546126080,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "09:14",
+                    "sortTime": 1546154040
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 32
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 171
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 113
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "013Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "9:05",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Солотвино 1",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "01:38",
+                    "sortTime": 1546126680,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "10:43",
+                    "sortTime": 1546159380
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 2
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 1
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "250Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "10:44",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Черновцы",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "01:48",
+                    "sortTime": 1546127280,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "12:32",
+                    "sortTime": 1546165920
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 10
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 51
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 1
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "007Л",
+                "category": 0,
+                "isTransformer": 1,
+                "travelTime": "6:45",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ивано-Франковск",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "02:22",
+                    "sortTime": 1546129320,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "09:07",
+                    "sortTime": 1546153620
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 28
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 1
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "029Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "7:00",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "03:13",
+                    "sortTime": 1546132380,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "10:13",
+                    "sortTime": 1546157580
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 2
+                    },
+                    {
+                        "id": "М",
+                        "title": "Мягкий",
+                        "letter": "М",
+                        "places": 4
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 14
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "045Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:23",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "03:23",
+                    "sortTime": 1546132980,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Лисичанск",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:46",
+                    "sortTime": 1546163160
+                },
+                "types": [
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 17
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "220Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "10:05",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Черновцы",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "04:42",
+                    "sortTime": 1546137720,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "14:47",
+                    "sortTime": 1546174020
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 12
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 129
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 99
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "744Ш",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "5:12",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "06:05",
+                    "sortTime": 1546142700,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Дарница",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:17",
+                    "sortTime": 1546161420
+                },
+                "types": [],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "744К",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "5:12",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "06:05",
+                    "sortTime": 1546142700,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Дарница",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:17",
+                    "sortTime": 1546161420
+                },
+                "types": [],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "744Л",
+                "category": 1,
+                "isTransformer": 0,
+                "travelTime": "5:12",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "06:05",
+                    "sortTime": 1546142700,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Дарница",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:17",
+                    "sortTime": 1546161420
+                },
+                "types": [
+                    {
+                        "id": "С1",
+                        "title": "Сидячий первого класса",
+                        "letter": "С1",
+                        "places": 157
+                    },
+                    {
+                        "id": "С2",
+                        "title": "Сидячий второго класса",
+                        "letter": "С2",
+                        "places": 290
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "071Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "12:20",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "07:00",
+                    "sortTime": 1546146000,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Запорожье 1",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "19:20",
+                    "sortTime": 1546190400
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 10
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 144
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 8
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "074Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:51",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "09:45",
+                    "sortTime": 1546155900,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Москва Киевская",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "18:36",
+                    "sortTime": 1546187760
+                },
+                "types": [],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "749П",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "5:48",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:26",
+                    "sortTime": 1546161960,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "17:14",
+                    "sortTime": 1546182840
+                },
+                "types": [
+                    {
+                        "id": "М",
+                        "title": "Мягкий",
+                        "letter": "М",
+                        "places": 9
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "749Л",
+                "category": 2,
+                "isTransformer": 1,
+                "travelTime": "5:48",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ивано-Франковск",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:26",
+                    "sortTime": 1546161960,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "17:14",
+                    "sortTime": 1546182840
+                },
+                "types": [
+                    {
+                        "id": "С1",
+                        "title": "Сидячий первого класса",
+                        "letter": "С1",
+                        "places": 3
+                    },
+                    {
+                        "id": "С2",
+                        "title": "Сидячий второго класса",
+                        "letter": "С2",
+                        "places": 6
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "192Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "9:47",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "11:57",
+                    "sortTime": 1546163820,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "21:44",
+                    "sortTime": 1546199040
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 56
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 492
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "182Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "9:53",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "12:18",
+                    "sortTime": 1546165080,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "22:11",
+                    "sortTime": 1546200660
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 116
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 429
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0,
+                "noReserve": 1
+            },
+            {
+                "num": "075Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:02",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "12:35",
+                    "sortTime": 1546166100,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Кривой Рог-Главный",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "20:37",
+                    "sortTime": 1546195020
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 10
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 216
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 146
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "142Ш",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "15:15",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "13:10",
+                    "sortTime": 1546168200,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Бахмут",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "04:25",
+                    "sortTime": 1546223100
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 14
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 18
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "715Л",
+                "category": 1,
+                "isTransformer": 0,
+                "travelTime": "6:56",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Пшемысль",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "16:12",
+                    "sortTime": 1546179120,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "23:08",
+                    "sortTime": 1546204080
+                },
+                "types": [
+                    {
+                        "id": "С1",
+                        "title": "Сидячий первого класса",
+                        "letter": "С1",
+                        "places": 62
+                    },
+                    {
+                        "id": "С2",
+                        "title": "Сидячий второго класса",
+                        "letter": "С2",
+                        "places": 20
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "112К",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "9:48",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "17:50",
+                    "sortTime": 1546185000,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Харьков-Пасс",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "03:38",
+                    "sortTime": 1546220280
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 107
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 197
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "705Л",
+                "category": 1,
+                "isTransformer": 0,
+                "travelTime": "5:07",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Пшемысль",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "18:46",
+                    "sortTime": 1546188360,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "23:53",
+                    "sortTime": 1546206780
+                },
+                "types": [
+                    {
+                        "id": "С1",
+                        "title": "Сидячий первого класса",
+                        "letter": "С1",
+                        "places": 52
+                    },
+                    {
+                        "id": "С2",
+                        "title": "Сидячий второго класса",
+                        "letter": "С2",
+                        "places": 1
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "017Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "6:32",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "19:04",
+                    "sortTime": 1546189440,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Харьков-Пасс",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "01:36",
+                    "sortTime": 1546212960
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 12
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 30
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "017Ш",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "6:32",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "19:04",
+                    "sortTime": 1546189440,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Харьков-Пасс",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "01:36",
+                    "sortTime": 1546212960
+                },
+                "types": [],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "150Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "9:23",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ворохта",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "20:05",
+                    "sortTime": 1546193100,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Кременчуг",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "05:28",
+                    "sortTime": 1546226880
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 22
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "001Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "6:15",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ивано-Франковск",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "22:00",
+                    "sortTime": 1546200000,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Константиновка",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "04:15",
+                    "sortTime": 1546222500
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 16
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "081Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:37",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "22:50",
+                    "sortTime": 1546203000,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "07:27",
+                    "sortTime": 1546234020
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 2
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 1
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "050Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "8:25",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Трускавец",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "23:08",
+                    "sortTime": 1546204080,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "07:33",
+                    "sortTime": 1546234380
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 18
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "092Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "7:25",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Львов",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "23:19",
+                    "sortTime": 1546204740,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "06:44",
+                    "sortTime": 1546231440
+                },
+                "types": [
+                    {
+                        "id": "Л",
+                        "title": "Люкс",
+                        "letter": "Л",
+                        "places": 17
+                    },
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 22
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            },
+            {
+                "num": "207Л",
+                "category": 0,
+                "isTransformer": 0,
+                "travelTime": "10:37",
+                "from": {
+                    "code": "2218000",
+                    "station": "Львов",
+                    "stationTrain": "Ужгород",
+                    "date": "воскресенье, 30.12.2018",
+                    "time": "23:55",
+                    "sortTime": 1546206900,
+                    "srcDate": "2018-12-30"
+                },
+                "to": {
+                    "code": "2200001",
+                    "station": "Киев-Пассажирский",
+                    "stationTrain": "Киев-Пассажирский",
+                    "date": "понедельник, 31.12.2018",
+                    "time": "10:32",
+                    "sortTime": 1546245120
+                },
+                "types": [
+                    {
+                        "id": "К",
+                        "title": "Купе",
+                        "letter": "К",
+                        "places": 12
+                    },
+                    {
+                        "id": "П",
+                        "title": "Плацкарт",
+                        "letter": "П",
+                        "places": 351
+                    }
+                ],
+                "child": {
+                    "minDate": "2004-12-31",
+                    "maxDate": "2018-12-29"
+                },
+                "allowStudent": 1,
+                "allowBooking": 1,
+                "isCis": 0,
+                "isEurope": 0,
+                "allowPrivilege": 0
+            }
+        ]
+    }
+}

@@ -1,15 +1,12 @@
-import React, { Component, PropTypes } from 'react';
-import classnames from 'classnames';
-import style from './TodoTextInput.css';
+import React, { PureComponent, PropTypes } from 'react';
 
-export default class TodoTextInput extends Component {
+import style from './RouteTextInput.css';
+
+export default class RouteTextInput extends PureComponent {
 
   static propTypes = {
     onSave: PropTypes.func.isRequired,
     text: PropTypes.string,
-    placeholder: PropTypes.string,
-    editing: PropTypes.bool,
-    newTodo: PropTypes.bool
   };
 
   constructor(props, context) {
@@ -22,10 +19,8 @@ export default class TodoTextInput extends Component {
   handleSubmit = (evt) => {
     const text = evt.target.value.trim();
     if (evt.which === 13) {
-      this.props.onSave(text);
-      if (this.props.newTodo) {
-        this.setState({ text: '' });
-      }
+      this.save(text);
+      this.setState({ text: '' });
     }
   };
 
@@ -34,20 +29,19 @@ export default class TodoTextInput extends Component {
   };
 
   handleBlur = (evt) => {
-    if (!this.props.newTodo) {
-      this.props.onSave(evt.target.value);
-    }
+    this.save(evt.target.value);
+  };
+
+  save = text => {
+    text && this.props.onSave(text);
   };
 
   render() {
     return (
       <input
-        className={classnames({
-          [style.edit]: this.props.editing,
-          [style.new]: this.props.newTodo
-        })}
+        className={style.new}
         type="text"
-        placeholder={this.props.placeholder}
+        placeholder={"Put booking.uz's url here"}
         autoFocus="true"
         value={this.state.text}
         onBlur={this.handleBlur}

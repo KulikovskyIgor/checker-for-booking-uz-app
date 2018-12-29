@@ -1,41 +1,43 @@
 import React, { Component, PropTypes } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+
 import Header from '../components/Header';
 import MainSection from '../components/MainSection';
-import * as TodoActions from '../actions/todos';
+import { setRoute, fetchRoutesTrains } from '../store/actions/routes';
+import { getValidRoutesUIData, getInvalidRoutes } from '../store/selectors/routes';
 import style from './App.css';
 
 @connect(
   state => ({
-    todos: state.todos
+    validRoutes: getValidRoutesUIData(state),
+    inalidRoutes: getInvalidRoutes(state),
   }),
-  dispatch => ({
-    actions: bindActionCreators(TodoActions, dispatch)
-  })
+  {
+    setRoute,
+    fetchRoutesTrains,
+  }
 )
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-
-    props.actions.fetchTrains();
-  };
-
   static propTypes = {
-    todos: PropTypes.array.isRequired,
-    actions: PropTypes.object.isRequired
+    validRoutes: PropTypes.array,
+    inalidRoutes: PropTypes.array,
+    setRoute: PropTypes.func,
+    fetchRoutesTrains: PropTypes.func,
   };
 
   render() {
-    const { todos, actions } = this.props;
+    const { validRoutes, inalidRoutes, setRoute, fetchRoutesTrains } = this.props;
+
+		console.log("​App -> constructor -> props", this.props.validRoutes)
+		console.log("​App -> constructor -> props inalidRoutes", this.props.inalidRoutes)
 
     return (
       <div className={style.normal}>
-        <Header addTodo={(n) => {
-          actions.addTodo(n);
-          actions.fetchTrains();
+        <Header setRoute={(r) => {
+          setRoute(r);
+          fetchRoutesTrains();
         }} />
-        <MainSection todos={todos} actions={actions} />
+        <MainSection validRoutes={validRoutes} inalidRoutes={inalidRoutes} />
       </div>
     );
   }

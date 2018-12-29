@@ -1,0 +1,8 @@
+.container {
+    flex: 1;
+    margin-top: 5px;
+}
+
+.offset {
+    margin-left: 5px;
+}
