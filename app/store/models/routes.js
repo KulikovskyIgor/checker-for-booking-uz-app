@@ -20,10 +20,20 @@ export const getInvalidRoutes = routes => parseRoutes(routes).filter(route => !i
 export const getRoutesUIData = routes => routes.filter(route => route.data).map(getRouteUIData)
 
 export const getRouteUIData = route => {
-    const from = get(route, "data.list[0].from.station");
-    const to = get(route, "data.list[0].to.station");
-    const trains = route.data.list.length;
-    const tickets = chain(route.data.list)
+    const routeData = getRouteData(route.data);
+
+    if (route.updatedData) {
+        const updatedRouteData = getRouteData(route.updatedData);
+        
+    }
+    return routeData;
+};
+
+export const getRouteData = data => {
+    const from = get(data, "list[0].from.station");
+    const to = get(data, "list[0].to.station");
+    const trains = data.list.length;
+    const tickets = chain(data.list)
         .map(train => train.types)
         .flatten()
         .groupBy("id")
