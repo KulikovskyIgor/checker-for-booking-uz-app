@@ -20,16 +20,21 @@ export const getInvalidRoutes = routes => parseRoutes(routes).filter(route => !i
 export const getRoutesUIData = routes => routes.filter(route => route.data).map(getRouteUIData)
 
 export const getRouteUIData = route => {
-    const routeData = getRouteData(route.data);
+    const routeInfo = getRouteInfo(route.data);
 
     if (route.updatedData) {
-        const updatedRouteData = getRouteData(route.updatedData);
-        
+        const updatedRouteInfo = getRouteInfo(route.updatedData);
+
+        return { 
+            ...routeInfo,
+            trainsDiff: updatedRouteInfo.trains - routeInfo.trains,
+            ticketsDiff: updatedRouteInfo.tickets - routeInfo.tickets,
+        };
     }
     return routeData;
 };
 
-export const getRouteData = data => {
+export const getRouteInfo = data => {
     const from = get(data, "list[0].from.station");
     const to = get(data, "list[0].to.station");
     const trains = data.list.length;
